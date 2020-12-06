@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/aws-codedeploy
+    destination: /home/ubuntu/TaigaEC2App
 permissions:
   - object: /home/ubuntu
     owner: ubuntu
@@ -10,8 +10,3 @@ permissions:
     type:
       - directory
       - file
-hooks:
-  ApplicationStart:
-    - location: scripts/install.sh
-      timeout: 300
-      runas: ubuntu
