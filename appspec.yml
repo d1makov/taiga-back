@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/taiga-back
+    destination: /home/ubuntu/taiga-deploy-bucket
 permissions:
   - object: /home/ubuntu
     owner: ubuntu
