@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Django aws eb deployment
-      uses: d1makov/django-aws-eb-deploy@V1.1
+      uses: d1makov/taiga-back@V1.1
       with:
         python_version: ${{ matrix.python_version }}
         flake8: true
