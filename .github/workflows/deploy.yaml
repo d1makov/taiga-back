@@ -7,12 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python_version: [3.5, 3.6, 3.7, 3.8]
+        python_version: [3.6]
 
     steps:
     - uses: actions/checkout@v2
     - name: Django aws eb deployment
-      uses: d1makov/taiga-back@V1.1
+      uses: d1makov/taiga-back
       with:
         python_version: ${{ matrix.python_version }}
         flake8: true
