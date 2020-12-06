@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/TaigaEC2App
+    destination: /home/ubuntu/taiga-back
 permissions:
   - object: /home/ubuntu
     owner: ubuntu
