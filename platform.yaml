@@ -1,0 +1,6 @@
+version: 1.0
+
+provisioner:
+  type: packer
+  template: []
+  flavor: ubuntu1604
