@@ -37,7 +37,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.6]
-        appname: ['taiga-back']
+        appname: ['taiga']
         deploy-group: ['staging']
         s3-bucket: ['taiga-deploy-bucket']
         s3-filename: ['staging-taiga-deploy-bucket${{ github.sha }}']
